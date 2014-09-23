@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Footer";
+}
+
+<footer id="footer" style="height:100px; background-color:#0094ff">
+    <h2>Footer</h2>
+    <p>&copy; @DateTime.Now.Year - Linda Portfolio</p>
+    <nav>@{Html.RenderPartial("_Nav");}</nav>
+</footer>
+
