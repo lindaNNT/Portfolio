@@ -1,11 +1,14 @@
 ﻿
-@{
-    ViewBag.Title = "Footer";
-}
+<footer id="footer">
+    <div id="lockup">
+        <div id="content-wrap">
+            <nav class="navigationMenu" style="float:none">
+                <a href="#header-wrap">Titel</a>
+                @{Html.RenderPartial("_Nav");}
+            </nav>
 
-<footer id="footer" style="height:100px; background-color:#0094ff">
-    <h2>Footer</h2>
-    <p>&copy; @DateTime.Now.Year - Linda Portfolio</p>
-    <nav>@{Html.RenderPartial("_Nav");}</nav>
+            <p id="copyright">&copy; @DateTime.Now.Year - Linda Portfolio</p>
+        </div>
+    </div>
 </footer>
 
