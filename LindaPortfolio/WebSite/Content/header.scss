@@ -1,8 +1,50 @@
-﻿body {
+﻿    
 
+#header-wrap{
+    height:450px;
+    background:#d1d1d1;
+    margin-top:-20px;
 }
 
-#home{
-    color:yellow;
+#nav{
+    float:right;
+    margin-top:30px;
+    margin-right:30px;
+}
+#nav > a{
+    display:inline-block;
+    font-weight:700;
+    font-size:14px;
+    text-transform:uppercase;
+    text-decoration:none;
+    color: rgba(0,0,0,0.7);
+        }
+
+#nav > a:hover{
+    color: rgba(0,0,0,0.1);
+}
+
+#titel{
+    font-size:72px;
+    font-weight:700;
+    color:white;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+    text-align:center;
+}
+
+#titel > span{
+    display:inline-block;
+    padding:0.2em 0.2em;
+    border:10px solid white;
+}
+
+#kicker{
+    font-size:20px;
+    font-weight:700;
+    color:white;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+    text-align:center;
 }
     
