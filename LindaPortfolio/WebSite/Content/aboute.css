@@ -3,13 +3,56 @@
 }
 
 #picture-wrap{
-    max-width:780px;
-    display:inline-flexbox;
-    align-items:center;
-    justify-content:space-around;
-    flex-flow:wrap;
+    max-width:700px;
+    margin:0px auto;
 }
 
-#picture-wrap > profile-picture{
-    order:3; 
+#picture {
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    background: url('../fonts/img/profil3.png') no-repeat;
+    margin:0px auto;
+    background-size:cover;
+    border:2px solid #4d7fae;
+}
+
+#camera{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    background: url('../fonts/img/camera23.svg') no-repeat;
+    margin:0px auto;
+    background-size:cover;
+    border:1px solid #4d7fae;
+}
+
+#mouse{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    background: url('../fonts/img/computer25.svg') no-repeat;
+    margin:0px auto;
+    background-size:cover;
+    border:1px solid #4d7fae;
+}
+
+#pencil{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    background: url('../fonts/img/palette.svg') no-repeat;
+    margin:0px auto;
+    background-size:cover;
+    border:1px solid #4d7fae;
+}
+
+#book{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    background: url('../fonts/img/three17.svg') no-repeat;
+    margin:0px auto;
+    background-size:cover;
+    border:1px solid #4d7fae;
 }

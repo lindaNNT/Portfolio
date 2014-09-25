@@ -154,6 +154,10 @@
     <Content Include="Content\footer.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\img\camera23.png" />
+    <Content Include="fonts\img\camera23.svg" />
+    <Content Include="fonts\img\computer25.png" />
+    <Content Include="fonts\img\computer25.svg" />
     <Content Include="fonts\img\DSC_0216.JPG" />
     <Content Include="fonts\img\DSC_0222.JPG" />
     <Content Include="fonts\img\DSC_1612.JPG" />
@@ -170,6 +174,16 @@
     <Content Include="fonts\img\Footer.png" />
     <Content Include="fonts\img\header-bg.JPG" />
     <Content Include="fonts\img\Header-bg.png" />
+    <Content Include="fonts\img\linked.png" />
+    <Content Include="fonts\img\linked.svg" />
+    <Content Include="fonts\img\palette.svg" />
+    <Content Include="fonts\img\profil.png" />
+    <Content Include="fonts\img\profil1.png" />
+    <Content Include="fonts\img\profil2.png" />
+    <Content Include="fonts\img\profil3.png" />
+    <Content Include="fonts\img\profil4.png" />
+    <Content Include="fonts\img\three17.png" />
+    <Content Include="fonts\img\three17.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
