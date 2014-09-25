@@ -11,20 +11,20 @@
     height:200px;
     width:200px;
     border-radius: 50%;
-    background: url('../fonts/img/profil3.png') no-repeat;
+    background: url('../fonts/img/profil1.png') no-repeat;
     margin:0px auto;
     background-size:cover;
-    border:2px solid #4d7fae;
+    border:2px solid #ced7e0;
 }
 
 #camera{
     height:60px;
     width:60px;
     border-radius: 50%;
-    background: url('../fonts/img/camera23.svg') no-repeat;
+    background: url('../fonts/img/photographer1.svg') no-repeat;
     margin:0px auto;
     background-size:cover;
-    border:1px solid #4d7fae;
+    background-color:#ced7e0;
 }
 
 #mouse{
@@ -34,25 +34,37 @@
     background: url('../fonts/img/computer25.svg') no-repeat;
     margin:0px auto;
     background-size:cover;
-    border:1px solid #4d7fae;
+    background-color:#ced7e0;
 }
 
 #pencil{
     height:60px;
     width:60px;
     border-radius: 50%;
-    background: url('../fonts/img/palette.svg') no-repeat;
+    background: url('../fonts/img/paint41.svg') no-repeat;
     margin:0px auto;
     background-size:cover;
-    border:1px solid #4d7fae;
+    background-color:#ced7e0;
 }
 
 #book{
     height:60px;
     width:60px;
     border-radius: 50%;
-    background: url('../fonts/img/three17.svg') no-repeat;
+    background: url('../fonts/img/books8.svg') no-repeat;
     margin:0px auto;
     background-size:cover;
-    border:1px solid #4d7fae;
+    background-color:#ced7e0;
+}
+
+#profile-text{
+    max-width:600px;
+    margin:0 auto;
+}
+
+#skills-wrap{
+    max-width:900px;
+    height:200px;
+    margin: 30px auto;
+    background-color:#ced7e0;
 }

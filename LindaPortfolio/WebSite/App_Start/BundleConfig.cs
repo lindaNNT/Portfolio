@@ -38,6 +38,7 @@ namespace WebSite
                       "~/Content/bootstrap.css",
                       "~/Content/header.scss",
                       "~/Content/aboute.css",
+                      "~/Content/intrests.css",
                       "~/Content/footer.css",
                       "~/Content/Common.css",
                       "~/Content/site.css"));
