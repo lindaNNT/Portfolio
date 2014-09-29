@@ -37,7 +37,8 @@ namespace WebSite
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/header.scss",
-                      "~/Content/aboute.css",
+                      //"~/Content/aboute.css",
+                      "~/Content/about.scss",
                       "~/Content/intrests.css",
                       "~/Content/footer.css",
                       "~/Content/Common.css",

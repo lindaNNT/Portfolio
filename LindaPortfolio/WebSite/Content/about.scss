@@ -1,5 +1,9 @@
-﻿#aboute-title{
-    padding-top:70px;
+﻿#aboute{
+    height:auto;
+    overflow:hidden;
+}
+#aboute-title{
+    padding-top:40px;
     padding-bottom:30px;
 }
 
@@ -70,36 +74,37 @@
 
 #skills-wrap{
     max-width:900px;
-    height:500px;
     margin: 30px auto;
+    font-size:15px;
+    font-weight:bold;
     color:#808080;
     background-color:white;
 }
 
 #skills{
     max-width:700px;
-    margin: 30px auto;
+    margin: 0px auto;
     color:#808080;
-    padding-left:20px;
+    padding-left:110px;
     padding-right:20px;
+    padding-bottom:30px;
     background-color:white;
 }
 
 .skills-unit{
-    width:330px;
+    width:250px;
     float:left;
-    
 }
 
 .skills-icons{
     font-size:0px;
-    margin-bottom:30px;
+    margin-bottom:40px;
 }
 
 .skills-icons > span{
     display:inline-block;
     margin-right:5px;
-    border: 5px solid #76aadd;
+    border: 4px solid #76aadd;
     border-radius:50%;
 }
 
@@ -107,17 +112,90 @@
     content:'';
     display:block;
     margin-right:2px;
-    border: 4px solid white;
+    border: 3px solid white;
     border-radius:50%;
     margin-right:2px;
 }
 
+.skill-0 span:nth-child(n+1){
+    border: 5px solid #ededed;
+}
+.skill-1 span:nth-child(n+2){
+    border: 5px solid #ededed;
+}
+.skill-2 span:nth-child(n+3){
+    border: 5px solid #ededed;
+}
+.skill-3 span:nth-child(n+4){
+    border: 5px solid #ededed;
+}
+.skill-4 span:nth-child(n+5){
+    border: 5px solid #ededed;
+}
+.skill-5 span:nth-child(n+6){
+    border: 5px solid #ededed;
+}
+.skill-6 span:nth-child(n+7){
+    border: 5px solid #ededed;
+}
+.skill-7 span:nth-child(n+8){
+    border: 5px solid #ededed;
+}
 .skill-8 span:nth-child(n+9){
-    border: 5px solid #cfcdcd;
+    border: 5px solid #ededed;
+}
+.skill-9 span:nth-child(n+10){
+    border: 5px solid #ededed;
 }
 
-@media screen and (max-width: 650px){
+
+@media screen and (max-width: 720px){
     #profile-text{
         font-size:20px;
+    }
+
+    #skills{
+        padding-left:70px;
+        max-width:330px;
+    }
+
+    .skills-unit{
+        padding-left:0px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    #camera{
+        height:85px;
+        width:85px;
+    }
+
+    #computer{
+        height:85px;
+        width:85px;
+    }
+
+    #pencil{
+        height:85px;
+        width:85px;
+    }
+
+    #book{
+        height:85px;
+        width:85px;
+    }
+
+    #profile-text{
+        font-size:18px;
+    }
+    
+    #skills{
+        padding-left:10px;
+        max-width:260px;
+        padding-right:10px;
+    }
+
+    .skills-unit{
+        padding-left:0px;
     }
 }

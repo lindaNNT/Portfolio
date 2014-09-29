@@ -1,12 +1,9 @@
-﻿    
-
-#header-wrap{
-    height:500px;
+﻿#header-wrap{
+    height:600px;
     background:url('../fonts/img/DSC_5686.JPG') center center;
     background-size:cover;
     margin-top:-20px;
 }
-
 
 #titel{
     font-size:72px;
@@ -22,11 +19,11 @@
 #titel > span{
     display:inline-block;
     padding:0.2em 0.2em;
-    border:10px solid rgba(0,0,0,0.6);;
+    border:10px solid rgba(0,0,0,0.6);
 }
 
-#kicker{
-    font-size:20px;
+.kicker{
+    font-size:18px;
     font-weight:700;
     color:rgba(60, 60, 60, 0.98);
     text-transform:uppercase;
@@ -34,3 +31,39 @@
     text-align:center;
 }
     
+@media (max-width: 640px)
+{
+    #header-wrap{
+        height:400px;
+    }
+
+    #titel{
+        padding-top:60px;
+    }
+
+    #titel > span{
+        border:7px solid rgba(0,0,0,0.6);
+    }
+
+    .kicker{
+        font-size:16px;
+        color:rgba(60, 60, 60, 0.7);
+    }
+}
+
+
+@media (max-width: 350px)
+{
+    #header-wrap{
+        height:350px;
+    }
+
+    #titel > span{
+        border:5px solid rgba(0,0,0,0.6);
+    }
+
+    .kicker{
+        font-size:14px;
+        color:rgba(60, 60, 60, 0.7);
+    }
+}

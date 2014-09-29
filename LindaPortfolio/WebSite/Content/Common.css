@@ -1,7 +1,18 @@
-﻿.navigationMenu{
+﻿body{
+    padding:0px 0px 0px 0px;
+    overflow-x:hidden;
+}
+
+.body-container{
+    margin-top:-50px;
+    padding:0px 0px 0px 0px; 
+    width:auto;
+}
+
+.navigationMenu{
     float:right;
-    margin-top:30px;
-    margin-right:30px;
+    padding-top:30px;
+    padding-right:30px;
 }
 .navigationMenu > a{
     display:inline-block;
@@ -27,4 +38,27 @@
     text-decoration:none;
     color:#4d7fae;
     text-align:center;
+}
+
+@media (max-width: 640px)
+{
+    .navigationMenu{
+        float:none;
+        text-align:center;
+        padding-top:30px;
+        padding-right:30px;
+    }
+}
+
+@media (max-width: 350px)
+{
+    .navigationMenu{
+        float:none;
+        text-align:center;
+        padding-top:30px;
+    }
+    .navigationMenu > a{
+        font-size:14px;
+        padding-left:10px;
+    }
 }
