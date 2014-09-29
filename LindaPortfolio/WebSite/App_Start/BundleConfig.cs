@@ -31,6 +31,7 @@ namespace WebSite
 
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
                       "~/Scripts/app/Header.js",
+                      "~/Scripts/app/About.js",
                       "~/Scripts/app/Common.js",
                       "~/Scripts/app/Footer.js"));
 

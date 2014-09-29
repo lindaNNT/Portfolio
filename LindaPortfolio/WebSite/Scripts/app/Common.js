@@ -1,5 +1,5 @@
 ﻿$(function () {
-    smoothScroll(1000);
+    smoothScroll(500);
     //alert("inne i common.js");
     $("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' })
 

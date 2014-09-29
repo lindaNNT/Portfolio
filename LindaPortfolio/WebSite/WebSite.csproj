@@ -154,6 +154,8 @@
     <Content Include="Content\intrests.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\img\arrowLeft.svg" />
+    <Content Include="fonts\img\arrowRight.svg" />
     <Content Include="fonts\img\books8.svg" />
     <Content Include="fonts\img\computer25.svg" />
     <Content Include="fonts\img\DSC_0109.JPG" />
@@ -186,6 +188,7 @@
     <Content Include="Content\header.scss" />
     <Content Include="Content\about.scss" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="Scripts\app\About.js" />
     <Content Include="Scripts\app\Common.js" />
     <Content Include="Scripts\app\Footer.js" />
     <Content Include="Scripts\app\Header.js" />

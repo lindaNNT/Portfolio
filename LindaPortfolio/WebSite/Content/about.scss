@@ -1,6 +1,6 @@
 ﻿#aboute{
     height:auto;
-    overflow:hidden;
+    overflow-x:hidden;
 }
 #aboute-title{
     padding-top:40px;
@@ -73,12 +73,102 @@
 }
 
 #skills-wrap{
-    max-width:900px;
+    width:300%;
+    position:relative;
+    left:-100%;
+    height:auto;
     margin: 30px auto;
     font-size:15px;
     font-weight:bold;
     color:#808080;
-    background-color:white;
+    background-color:#ffffff;
+    overflow-x:hidden;
+    transition:ease-in-out 0.5s;
+}
+
+#arrow-wrap{
+    height:80px;
+    max-width:200px;
+    margin:30px auto;
+}
+
+#leftArrow-wrap{
+    float:left;
+    height:80px;
+    width:80px;
+}
+
+#arrowL{
+    height:40px;
+    width:40px;
+    margin:0px auto;
+    border-radius: 50%;
+    background: url('../fonts/img/arrowLeft.svg') no-repeat;
+    background-size:cover;
+    background-color:#ffffff;
+    border: 3px solid black;
+    opacity: 0.5;
+    cursor:pointer;
+}
+
+#arrowL:hover{
+    opacity: 0.75;
+}
+
+#rightArrow-wrap{
+    float:right;
+    height:80px;
+    width:80px;
+}
+
+#arrowR{
+    margin:0px auto;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background: url('../fonts/img/arrowRight.svg') no-repeat;
+    background-size:cover;
+    background-color:#ffffff;
+    border: 3px solid black;
+    opacity: 0.5;
+    cursor:pointer;
+}
+
+#arrowR:hover{
+    opacity: 0.75;
+}
+
+.arrowText{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:12px;
+    opacity:0.75;
+}
+
+#education-container, #skills-container, #experience-container{
+    width:33%;
+    float:left;
+}
+
+#education{
+    max-width:700px;
+    height:200px;
+    margin: 0px auto;
+    color:#808080;
+    padding-left:110px;
+    padding-right:20px;
+    padding-bottom:30px;
+    background-color:#f3fc79;
+}
+
+#experience{
+    max-width:700px;
+    margin: 0px auto;
+    color:#808080;
+    padding-left:110px;
+    padding-right:20px;
+    padding-bottom:30px;
+    background-color:#fabfff;
 }
 
 #skills{
@@ -88,8 +178,9 @@
     padding-left:110px;
     padding-right:20px;
     padding-bottom:30px;
-    background-color:white;
+    background-color:#ffffff;
 }
+
 
 .skills-unit{
     width:250px;
