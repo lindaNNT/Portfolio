@@ -90,11 +90,50 @@ function popUp()
         $('#fade').css('display', 'block');
     });
 
+    $('#tumb-systemvetare').click(function () {
+        $('#ed-systemvetare').css('display', 'block');
+        $('#black_overlay').css('display', 'block');
+        $('#fade').css('display', 'block');
+    });
+
+    $('#tumb-ex-rtg').click(function () {
+        $('#ex-rtg').css('display', 'block');
+        $('#black_overlay').css('display', 'block');
+        $('#fade').css('display', 'block');
+    });
+
+    $('#tumb-ex-usk').click(function () {
+        $('#ex-usk').css('display', 'block');
+        $('#black_overlay').css('display', 'block');
+        $('#fade').css('display', 'block');
+    });
+
+    $('#tumb-ex-rest').click(function () {
+        $('#ex-rest').css('display', 'block');
+        $('#black_overlay').css('display', 'block');
+        $('#fade').css('display', 'block');
+    });
+
+    $('.black_overlay').click(function () {
+        $('#ed-systemvetare').css('display', 'none');
+        $('#ed-system').css('display', 'none');
+        $('#ed-xray').css('display', 'none');
+        $('#ed-nurse').css('display', 'none');
+        $('#ex-rtg').css('display', 'none');
+        $('#ex-usk').css('display', 'none');
+        $('#ex-rest').css('display', 'none');
+        $('#black_overlay').css('display', 'none');
+        $('#fade').css('display', 'none');
+    });
+
     $('.close-btn').click(function () {
         $('#ed-systemvetare').css('display', 'none');
         $('#ed-system').css('display', 'none');
         $('#ed-xray').css('display', 'none');
         $('#ed-nurse').css('display', 'none');
+        $('#ex-rtg').css('display', 'none');
+        $('#ex-usk').css('display', 'none');
+        $('#ex-rest').css('display', 'none');
         $('#black_overlay').css('display', 'none');
         $('#fade').css('display', 'none');
     });
