@@ -282,17 +282,38 @@
 
 .skills-fontHeader{
     text-transform:uppercase;
-    font-size:18px;
+    font-size:34px;
     color:#1b1b1b;
+    text-align:center;
+    line-height:1.2;
+    font-weight:700;
+    color:#356ca1;
 }
 
 .skills-exam{
-    font-size:14px;
+    font-size:18px;
     color:#564f4f;
+    text-align:center;
+    letter-spacing:0.05em;
+    text-transform:uppercase;
+    font-weight:400;
 }
 
 .skills-text{
-    font-size:12px;
+    padding-top:20px;
+    font-size:16px;
+    text-align:center;
+}
+
+.skills-text-s{
+    font-size:20px;
+    font-weight:600;
+}
+
+.popUp-Icon{
+    width:100px;
+    height:100px;
+    margin:50px auto;
 }
 
 #skills{
@@ -392,6 +413,28 @@
     .skills-unit{
         padding-left:0px;
     }
+
+    .skills-fontHeader{
+        font-size:28px;
+    }
+
+    .skills-exam{
+        font-size:16px;
+    }
+
+    .skills-text{
+        font-size:14px;
+    }
+
+    .skills-text-s{
+        font-size:16px;
+    }
+
+    .popUp-Icon{
+        margin:40px auto;
+        width:90px;
+        height:90px;
+    }
 }
 
 @media screen and (max-width: 420px){
@@ -408,6 +451,12 @@
 
     .tumb-overlay > strong {
         font-size:16px;
+    }
+
+    .popUp-Icon{
+        margin:30px auto;
+        width:90px;
+        height:90px;
     }
 }
 
@@ -449,5 +498,11 @@
 
     .skills-unit{
         padding-left:0px;
+    }
+
+    .popUp-Icon{
+        margin:20px auto;
+        width:70px;
+        height:70px;
     }
 }

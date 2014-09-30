@@ -79,13 +79,25 @@
     background-position: center center;
 }
 
-.close-btn{
-    cursor:pointer;
-    opacity:0.7;
+#ex-rtg-icon {
+    background: url('../fonts/img/xray.svg');
+    border-radius: 50%;
+    background-size:cover;
+    background-color:#ced7e0;
 }
 
-.close-btn:hover{
-    opacity:1;
+#ex-usk-icon {
+    background: url('../fonts/img/nurse9.svg');
+    border-radius: 50%;
+    background-size:cover;
+    background-color:#ced7e0;
+}
+
+#ex-rest-icon {
+    background: url('../fonts/img/waiter.svg');
+    border-radius: 50%;
+    background-size:cover;
+    background-color:#ced7e0;
 }
 
 @media screen and (max-width: 780px){
