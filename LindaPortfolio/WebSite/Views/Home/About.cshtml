@@ -44,100 +44,21 @@
     </div>
 
     <div id="skills-wrap">
-
         <div id="education-container">
             <p class="font-headline">Utbildning</p>
             <div id="education">
-                <a href="" class="tumb-unit">
-                    <div class="tumb-overlay">
-                        <strong>Systemutvetare</strong>
-                    </div>
-                </a>
-                <a href="" class="tumb-unit">
-                    <div class="tumb-overlay">
-                        <strong>Systemutvecklare</strong>
-                    </div>
-                </a>
-                <a href="" class="tumb-unit">
-                    <div class="tumb-overlay">
-                        <strong>Röntgensjuksköterska</strong>
-                    </div>
-                </a>
-                <a href="" class="tumb-unit">
-                    <div class="tumb-overlay">
-                        <strong>Undersköterska</strong>
-                    </div>
-                </a>
+                @{Html.RenderPartial("_Education");}
             </div>
         </div>
 
         <div id="skills-container">
             <p class="font-headline">Egenskaper</p>
-            <div id="skills">
-                <div class="skills-unit">
-                    <div class="skills-lable">Kommunikation</div>
-                    <div class="skills-icons skill-8">
-                        <span></span><span></span><span></span><span></span><span></span>
-                        <span></span><span></span><span></span><span></span><span></span>
-                    </div>
-                </div>
-                <div class="skills-unit">
-                    <div class="skills-lable">Inlärning</div>
-                    <div class="skills-icons skill-9">
-                        <span></span><span></span><span></span><span></span><span></span>
-                        <span></span><span></span><span></span><span></span><span></span>
-                    </div>
-                </div>
-                <div class="skills-unit">
-                    <div class="skills-lable">Planering</div>
-                    <div class="skills-icons skill-7">
-                        <span></span><span></span><span></span><span></span><span></span>
-                        <span></span><span></span><span></span><span></span><span></span>
-                    </div>
-                </div>
-                <div class="skills-unit">
-                    <div class="skills-lable">Samarbete</div>
-                    <div class="skills-icons skill-8">
-                        <span></span><span></span><span></span><span></span><span></span>
-                        <span></span><span></span><span></span><span></span><span></span>
-                    </div>
-                </div>
-                <div class="skills-unit">
-                    <div class="skills-lable">Organisering</div>
-                    <div class="skills-icons skill-7">
-                        <span></span><span></span><span></span><span></span><span></span>
-                        <span></span><span></span><span></span><span></span><span></span>
-                    </div>
-                </div>
-                <div class="skills-unit">
-                    <div class="skills-lable">Självständighet</div>
-                    <div class="skills-icons skill-8">
-                        <span></span><span></span><span></span><span></span><span></span>
-                        <span></span><span></span><span></span><span></span><span></span>
-                    </div>
-                </div>
-                <div class="skills-unit">
-                    <div class="skills-lable">Kreativitet</div>
-                    <div class="skills-icons skill-7">
-                        <span></span><span></span><span></span><span></span><span></span>
-                        <span></span><span></span><span></span><span></span><span></span>
-                    </div>
-                </div>
-                <div class="skills-unit">
-                    <div class="skills-lable">Programmering</div>
-                    <div class="skills-icons skill-7">
-                        <span></span><span></span><span></span><span></span><span></span>
-                        <span></span><span></span><span></span><span></span><span></span>
-                    </div>
-                </div>
-            </div>
+            @{Html.RenderPartial("_Skills");}
         </div>
 
         <div id="experience-container">
             <p class="font-headline">Erfarenheter</p>
-            <div id="experience">
-                
-            </div>
+            @{Html.RenderPartial("_Experience");}
         </div>
     </div>
 </div>
@@ -145,25 +66,6 @@
 
 
 
-@*<div id="ed-systemvetare" class="thumb-container">
-    <p class="skills-fontHeader">Systemutvetare (pågående)</p>
-    <p class="skills-exam">Kandidat examen jan 2015</p>
-    <p class="skills-text">Två årig utbildning.....</p>
-</div>
-<div id="ed-system" class="thumb-container">
-    <p class="skills-fontHeader">Systemutvecklare</p>
-    <p class="skills-exam">Högskole examen juni 2014</p>
-    <p class="skills-text">Två årig utbildning.....</p>
-</div>
-<div id="ed-xray" class="thumb-container">
-    <p class="skills-fontHeader">Röntgensjuksköterska</p>
-    <p class="skills-exam">Kandidat examen juni 2011</p>
-    <p class="skills-text">Tre årig utbildning.....</p>
-</div>
-<div id="ed-nurse" class="thumb-container">
-    <p class="skills-fontHeader">Undersköterska</p>
-    <p class="skills-exam">Gymnasie utbildning juni 2008</p>
-    <p class="skills-text">Ett årig utbildning.....</p>
-</div>*@
+
 
 

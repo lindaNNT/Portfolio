@@ -2,6 +2,7 @@
     height:auto;
     overflow-x:hidden;
 }
+
 #aboute-title{
     padding-top:40px;
     padding-bottom:30px;
@@ -152,18 +153,131 @@
 }
 
 #education{
-    max-width:500px;
+    max-width:700px;
     margin: 0px auto;
-    color:#808080;
     padding-left:20px;
     padding-right:20px;
     text-align:center;
+    clear:both;
 }
 
-#experience{
-    max-width:700px;
-    margin: 0px auto;
-    color:#808080;
+.thumb-container{
+    display:none;
+    position: absolute;
+    top: 125%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    padding: 16px;
+    border: 5px solid #76aadd;
+    background-color: white;
+    z-index:1002;
+    overflow: auto;
+}
+
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+
+.close-btn{
+    cursor:pointer;
+    opacity:0.7;
+}
+
+.close-btn:hover{
+    opacity:1;
+}
+
+.tumb-unit{
+    display:block;
+    width:50%;
+    height:180px;
+    background:pink;
+    float:left;
+    position:relative;
+    padding-top:20%;
+    overflow:hidden;
+    cursor:pointer;
+    perspective:(300);
+}
+
+.tumb-overlay{
+    position:absolute;
+    height:100%;
+    top:100%;
+    left:0;
+    right:0;
+    background: #76aadd;
+    opacity:0.55;
+    padding-top:60px;
+    justify-content:space-around;
+    transition:ease-in-out 0.2s;
+}
+
+.tumb-overlay > strong {
+    text-align:center;
+    color:#ffffff;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:600;
+    line-height:1.2;
+    opacity:1;
+}
+
+.tumb-overlay > p{
+    text-align:center;
+    color:#ffffff;
+    font-size:14px;
+    font-weight:400;
+    opacity:1;
+}
+
+.tumb-unit:hover > .tumb-overlay{
+    position:absolute;
+    top:0%;
+    left:0%;
+    right:0%;
+    bottom:0%;
+    background: #76aadd;
+    opacity:0.95;
+}
+
+#tumb-systemvetare{
+    background: url('../fonts/img/DSC_1264.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+#tumb-system{
+    background: url('../fonts/img/DSC_1240.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+#tumb-rtgssk{
+    background: url('../fonts/img/DSC_1904.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+#tumb-usk{
+    background: url('../fonts/img/DSC_1180.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
 }
 
 .skills-fontHeader{
@@ -250,9 +364,24 @@
 }
 
 
+@media screen and (max-width: 1300px){
+    .thumb-container{
+        left:10%;
+        width: 80%;
+        height: 50%;
+    }
+}
+
 @media screen and (max-width: 720px){
     #profile-text{
         font-size:20px;
+    }
+
+    .tumb-unit{
+        width:75%;
+        height:200px;
+        margin:0px auto;
+        float:none;
     }
 
     #skills{
@@ -262,6 +391,23 @@
 
     .skills-unit{
         padding-left:0px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .thumb-container{
+        left:0%;
+        width: 100%;
+        height: 50%;
+    }
+
+    .tumb-unit{
+        width:100%;
+        height:200px;
+    }
+
+    .tumb-overlay > strong {
+        font-size:16px;
     }
 }
 
@@ -290,6 +436,11 @@
         font-size:18px;
     }
     
+    .tumb-unit{
+        width:100%;
+        height:150px;
+    }
+
     #skills{
         padding-left:10px;
         max-width:260px;

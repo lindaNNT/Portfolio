@@ -2,6 +2,8 @@
     aboutSlide();
     $('#experience-container').hide();
     $('#education').hide();
+    popUp();
+    $('.thumb-container').hide();
 });
 
 function aboutSlide()
@@ -59,5 +61,41 @@ function aboutSlide()
             $('#education').hide();
         }
         
+    });
+}
+
+function popUp()
+{
+    $('#tumb-systemvetare').click(function () {
+        $('#ed-systemvetare').css('display','block');
+        $('#black_overlay').css('display', 'block');
+        $('#fade').css('display', 'block');
+    });
+
+    $('#tumb-system').click(function () {
+        $('#ed-system').css('display', 'block');
+        $('#black_overlay').css('display', 'block');
+        $('#fade').css('display', 'block');
+    });
+
+    $('#tumb-rtgssk').click(function () {
+        $('#ed-xray').css('display', 'block');
+        $('#black_overlay').css('display', 'block');
+        $('#fade').css('display', 'block');
+    });
+
+    $('#tumb-usk').click(function () {
+        $('#ed-nurse').css('display', 'block');
+        $('#black_overlay').css('display', 'block');
+        $('#fade').css('display', 'block');
+    });
+
+    $('.close-btn').click(function () {
+        $('#ed-systemvetare').css('display', 'none');
+        $('#ed-system').css('display', 'none');
+        $('#ed-xray').css('display', 'none');
+        $('#ed-nurse').css('display', 'none');
+        $('#black_overlay').css('display', 'none');
+        $('#fade').css('display', 'none');
     });
 }
