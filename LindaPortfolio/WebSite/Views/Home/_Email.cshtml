@@ -1,0 +1,33 @@
+﻿@model WebSite.Models.Mail
+
+<div id="mail-container">
+    @using (Html.BeginForm()) {
+        @Html.ValidationSummary(true)
+    <fieldset>
+        <span class="font-sub-headline">Skicka mail</span>
+
+        <div class="form-group">
+            <label class="input-font" for="nameInput">Namn</label>
+            @Html.TextBoxFor(model => model.Name, new { id ="nameInput", @class = "form-control", placeholder = "Namn"})
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="form-group">
+            <label class="input-font" for="emailInput">E-mail</label>
+            @Html.TextBoxFor(model => model.MailAdress, new { id = "emailInput", @class = "form-control", placeholder = "E-mail" })
+            @Html.ValidationMessageFor(model => model.MailAdress)
+        </div>
+
+        <div class="form-group">
+            <label class="input-font" for="email-messaget">Meddelande</label>
+            @Html.TextAreaFor(model => model.Message, new { id = "emailInput", @class = "form-control", placeholder = "E-mail", @style = "resize:none;max-width:450px;" })
+            @Html.ValidationMessageFor(model => model.Message)
+        </div>
+        <div class="form-group">
+            <button type="submit" id="email-submit" class="btn btn-default" value="_Email">Skicka!</button>  
+        </div>
+    </fieldset>
+    }
+</div>
+<label class="input-font" id="email_lbl_respond">@ViewBag.Respond</label>
+

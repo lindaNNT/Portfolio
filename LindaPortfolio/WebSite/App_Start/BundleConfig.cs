@@ -34,6 +34,8 @@ namespace WebSite
                       "~/Scripts/jquery-ui.min-1.11.1.js",
                       "~/Scripts/app/Header.js",
                       "~/Scripts/app/About.js",
+                      "~/Scripts/app/Leisure.js",
+                      "~/Scripts/app/Contact.js",
                       "~/Scripts/app/Common.js",
                       "~/Scripts/app/Footer.js"));
 
@@ -42,7 +44,11 @@ namespace WebSite
                       "~/Content/header.scss",
                       "~/Content/experience.css",
                       "~/Content/about.scss",
+                      "~/Content/leisure.css",
                       "~/Content/intrests.css",
+                      "~/Content/family.css",
+                      "~/Content/contact.css",
+                      "~/Content/email.css",
                       "~/Content/footer.css",
                       "~/Content/Common.css",
                       "~/Content/site.css"));

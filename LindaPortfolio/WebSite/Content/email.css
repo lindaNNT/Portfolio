@@ -1,0 +1,20 @@
+﻿#mail-container{
+    margin:0px auto;
+    clear:both;
+    float:none;
+    background-color:white;
+    max-width:500px;
+    padding:20px 20px 20px 20px;
+}
+
+#nameInput{
+
+}
+
+#emailInput{
+}
+
+#email-message{
+    resize:none;
+    max-width:450px;
+}

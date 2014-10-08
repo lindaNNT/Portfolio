@@ -1,0 +1,82 @@
+﻿#leisure{
+    height:auto;
+    overflow-x:hidden;
+    background-color:#d4e3ea;
+}
+
+#leisure-wrap{
+    width:200%;
+    position:relative;
+    left:0%;
+    height:auto;
+    font-size:15px;
+    font-weight:bold;
+    color:#808080;
+    overflow-x:hidden;
+    transition:ease-in-out 0.5s;
+}
+
+#family-container, #interest-container{
+    width:50%;
+    float:left;
+}
+
+#leisure-arrow-wrap{
+    height:80px;
+    max-width:200px;
+    margin:30px auto;
+}
+
+#leisure-leftArrow-wrap{
+    float:left;
+    height:80px;
+    width:80px;
+}
+
+#leisure-arrowL{
+    height:40px;
+    width:40px;
+    margin:0px auto;
+    border-radius: 50%;
+    background: url('../fonts/img/arrowLeft.svg') no-repeat;
+    background-size:cover;
+    background-color:#ffffff;
+    border: 3px solid black;
+    opacity: 0.5;
+    cursor:pointer;
+}
+
+#leisure-arrowL:hover{
+    opacity: 0.75;
+}
+
+#leisure-rightArrow-wrap{
+    float:right;
+    height:80px;
+    width:80px;
+}
+
+#leisure-arrowR{
+    margin:0px auto;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background: url('../fonts/img/arrowRight.svg') no-repeat;
+    background-size:cover;
+    background-color:#ffffff;
+    border: 3px solid black;
+    opacity: 0.5;
+    cursor:pointer;
+}
+
+#leisure-arrowR:hover{
+    opacity: 0.75;
+}
+
+.leisure-arrowText{
+    margin-top:5px;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:12px;
+    opacity:0.75;
+}

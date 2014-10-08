@@ -1,9 +1,39 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+   
 }
-<div id="contact" style="height:500px;">
+
+<div id="contact">
     <br />
-    <p class="font-headline">Kontakt</p>
+    <p class="font-headline">Kontakt @ViewBag.Message </p>
+    <div class="contact-wrap">
+        <div id="tumb-contact-CV" class="tumb-con-unit">
+            <div class="tumb-con-overlay">
+                <strong>CV</strong>
+                <p>Ladda ner mitt CV i pdf-format!</p>
+                <a target="_blank" href="~/Resource/CV%20Linda%20Nguyen%202014.pdf">Klicka här för CV!</a>
+            </div>
+        </div>
+        <div id="tumb-contact-linkedin" class="tumb-con-unit">
+            <div class="tumb-con-overlay">
+                <strong>LinkedIn</strong>
+                <p>Ckecka in min LinkedIn!</p>
+                <a target="_blank" href="https://www.linkedin.com/in/nguyenlieulinda">Klicka här för att komma till LinkedIn!</a>
+            </div>
+        </div>
+        <div id="tumb-contact-email" class="tumb-con-unit">
+            <div class="tumb-con-overlay">
+                <strong>E-mail</strong>
+                <p id="mail-me">Maila mig!</p>
+            </div>
+        </div>
+    </div>
 
-
+    <div id="email-wrap">
+        <div id="email-container">
+            <div class="close-btn-email">
+                <span class="glyphicon glyphicon-remove" style="float:right"></span>
+            </div>
+            @{Html.RenderPartial("_Email");}
+        </div>
+    </div>
 </div>

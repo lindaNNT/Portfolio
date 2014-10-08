@@ -142,7 +142,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Mail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource\Settings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -150,9 +152,13 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Common.css" />
+    <Content Include="Content\contact.css" />
+    <Content Include="Content\email.css" />
     <Content Include="Content\experience.css" />
+    <Content Include="Content\family.css" />
     <Content Include="Content\footer.css" />
     <Content Include="Content\intrests.css" />
+    <Content Include="Content\leisure.css" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
     <Content Include="Content\themes\base\autocomplete.css" />
@@ -193,16 +199,12 @@
     <Content Include="fonts\img\books8.svg" />
     <Content Include="fonts\img\computer25.svg" />
     <Content Include="fonts\img\DSC_0109.JPG" />
-    <Content Include="fonts\img\DSC_0216.JPG" />
-    <Content Include="fonts\img\DSC_0222.JPG" />
     <Content Include="fonts\img\DSC_0722.png" />
     <Content Include="fonts\img\DSC_1180.png" />
     <Content Include="fonts\img\DSC_1240.png" />
     <Content Include="fonts\img\DSC_1264.png" />
     <Content Include="fonts\img\DSC_1612.JPG" />
     <Content Include="fonts\img\DSC_1904.png" />
-    <Content Include="fonts\img\DSC_3697.JPG" />
-    <Content Include="fonts\img\DSC_3749.JPG" />
     <Content Include="fonts\img\DSC_4087.JPG" />
     <Content Include="fonts\img\DSC_5679.JPG" />
     <Content Include="fonts\img\DSC_5686.JPG" />
@@ -213,12 +215,12 @@
     <Content Include="fonts\img\nurse9.svg" />
     <Content Include="fonts\img\paint41.svg" />
     <Content Include="fonts\img\photographer1.svg" />
-    <Content Include="fonts\img\profil.png" />
-    <Content Include="fonts\img\profil1.png" />
-    <Content Include="fonts\img\profil2.png" />
-    <Content Include="fonts\img\profil3.png" />
-    <Content Include="fonts\img\profil4.png" />
-    <Content Include="fonts\img\profil5.png" />
+    <Content Include="fonts\Profile\DSC_0158,2.png" />
+    <Content Include="fonts\Profile\DSC_0159,2.png" />
+    <Content Include="fonts\Profile\DSC_0184,2.png" />
+    <Content Include="fonts\Profile\DSC_0245,2.png" />
+    <Content Include="fonts\Profile\profil.png" />
+    <Content Include="fonts\Profile\profil1.png" />
     <Content Include="fonts\img\waiter.svg" />
     <Content Include="fonts\img\xray.svg" />
     <Content Include="Global.asax" />
@@ -230,11 +232,17 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\header.scss" />
     <Content Include="Content\about.scss" />
+    <Content Include="Resource\CV Linda Nguyen 2014.pdf" />
+    <Content Include="Settings.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\app\About.js" />
     <Content Include="Scripts\app\Common.js" />
+    <Content Include="Scripts\app\Contact.js" />
     <Content Include="Scripts\app\Footer.js" />
     <Content Include="Scripts\app\Header.js" />
+    <Content Include="Scripts\app\Leisure.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
@@ -259,7 +267,10 @@
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Settings.xml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -275,17 +286,19 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Home.cshtml" />
     <Content Include="Views\Home\Footer.cshtml" />
-    <Content Include="Views\Home\Interests.cshtml" />
+    <Content Include="Views\Home\_Interests.cshtml" />
     <Content Include="Views\Shared\_Nav.cshtml" />
     <Content Include="Views\Home\_Education.cshtml" />
     <Content Include="Views\Home\_EducationPopUp.cshtml" />
     <Content Include="Views\Home\_Skills.cshtml" />
     <Content Include="Views\Home\_Experience.cshtml" />
     <Content Include="Views\Home\_ExperiencePopUp.cshtml" />
+    <Content Include="Views\Home\Leisure.cshtml" />
+    <Content Include="Views\Home\_Family.cshtml" />
+    <Content Include="Views\Home\_Email.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

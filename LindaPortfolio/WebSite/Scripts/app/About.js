@@ -9,10 +9,10 @@
 function aboutSlide()
 {
     $('#arrowL').click(function () {
-        var rightArrow = $('#arrowL').css('display');
-        var leftArrow = $('#arrowR').css('display');
+        var rightArrow = $('#arrowR').css('display');
+        var leftArrow = $('#arrowL').css('display');
 
-        if (rightArrow == 'block' && leftArrow == 'block') { //egenskapsblock syns
+        if (leftArrow == 'block' && rightArrow == 'block') { //egenskapsblock syns
             $('#skills-wrap').css('left', '0%');
             $('#arrowL').css('display', 'none');
             $('#arrowTextL').css('display', 'none');
@@ -22,7 +22,7 @@ function aboutSlide()
             $('#experience-container').hide();
             $('#education').show();
         }
-        else if (rightArrow == 'block' && leftArrow == 'none') { // utbildning syns
+        else if (leftArrow == 'block' && rightArrow == 'none') { // utbildning syns
             $('#skills-wrap').css('left', '-100%');
             $('#arrowL').css('display', 'block');
             $('#arrowTextL').css('display', 'block');
@@ -36,10 +36,10 @@ function aboutSlide()
     });
 
     $('#arrowR').click(function () {
-        var rightArrow = $('#arrowL').css('display');
-        var leftArrow = $('#arrowR').css('display');
+        var rightArrow = $('#arrowR').css('display');
+        var leftArrow = $('#arrowL').css('display');
 
-        if (leftArrow == 'block' && rightArrow == 'block') { // egenskapsblock syns
+        if (rightArrow == 'block' && leftArrow == 'block') { // egenskapsblock syns
             $('#skills-wrap').css('left', '-200%');
             $('#arrowR').css('display', 'none');
             $('#arrowTextR').css('display', 'none');
@@ -49,7 +49,7 @@ function aboutSlide()
             $('#experience-container').show();
             $('#education').hide();
         }
-        else if (rightArrow == 'none' && leftArrow == 'block') { // erfarenhet syns
+        else if (leftArrow == 'none' && rightArrow == 'block') { // erfarenhet syns
             $('#skills-wrap').css('left', '-100%');
             $('#arrowR').css('display', 'block');
             $('#arrowTextR').css('display', 'block');
