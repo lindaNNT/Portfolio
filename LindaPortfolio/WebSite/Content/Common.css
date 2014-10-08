@@ -52,6 +52,52 @@
     letter-spacing:2px;
 }
 
+.context-text {
+    max-width:650px;
+    margin:10px auto;
+    padding-right:15px;
+    padding-left:15px;
+    font-size:22px;
+    text-align:center;
+    font-weight:300;
+}
+.context-text-highlight {
+    font-size:24px;
+    color: midnightblue;
+    font-weight:700;
+}
+
+.field-validation-error {
+    color: lightcoral;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid darkred;
+}
+
+.validation-summary-errors {
+    color: darkred;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 720px) {
+    .context-text {
+        font-size: 20px;
+    }
+
+    .context-text-highlight {
+        font-size:22px;
+        font-weight:600;
+    }
+}
+
 @media (max-width: 640px)
 {
     .navigationMenu{
@@ -72,5 +118,14 @@
     .navigationMenu > a{
         font-size:14px;
         padding-left:10px;
+    }
+
+    .context-text{
+        font-size:18px;
+    }
+
+    .context-text-highlight {
+        font-size:20px;
+        font-weight:600;
     }
 }

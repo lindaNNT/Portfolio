@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Configuration;
 using System.Linq;
 using System.Net.Mail;
+using System.Net.Mime;
 using System.Text;
 using System.Web;
 using System.Web.Mvc;
@@ -30,6 +31,7 @@ namespace WebSite.Controllers
         }
 
         [HttpPost]
+        [ValidateInput(false)]
         public ActionResult Index(FormCollection formColl)
         {
             
@@ -41,11 +43,14 @@ namespace WebSite.Controllers
 
                 if (name != null && !name.Equals(string.Empty) &&
                     email != null && !email.Equals(string.Empty) &&
-                    message != null && !message.Equals(string.Empty)){
+                    message != null && !message.Equals(string.Empty))
+                {
                     if (_name != null && !_name.Equals(string.Empty) &&
                         _email != null && !_email.Equals(string.Empty) &&
-                        _message != null && !_message.Equals(string.Empty)){
-                        if (_name == name && _email == email && _message == message){
+                        _message != null && !_message.Equals(string.Empty))
+                    {
+                        if (_name == name && _email == email && _message == message)
+                        {
                             ViewBag.Respond = "blank";
                         }
                         else
@@ -68,6 +73,10 @@ namespace WebSite.Controllers
                         ViewBag.Respond = respond;
                     }
                 }
+                else
+                {
+                    ViewBag.Respond = "Alla fält måste vara ifyllda!";
+                }
                 return View();
             }
             catch (Exception e)
@@ -81,11 +90,11 @@ namespace WebSite.Controllers
             try
             {
                 var mail = new MailMessage {IsBodyHtml = true};
-                var smtpServer = new SmtpClient("smtp.live.com");
+                var smtpServer = new SmtpClient(_set.GetSmtpServer());
 
                 mail.From = new MailAddress(email);
                 mail.To.Add(_set.GetMyMail());
-                mail.Subject = "Linda Portfolio e-mail";
+                mail.Subject = _set.GetMailSubject();
                 mail.Body = "<hr /><b>Name:  </b>" + name
                         + "<br/><b>Från Email: </b>" + email
                         + "<br />______________________________________<br /> <b>Meddelande:</b><br />" + message;

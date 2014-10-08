@@ -1,7 +1,10 @@
-﻿#footer{
+﻿#footer {
     background:url('../fonts/img/Footer.png') center center;
+    -ms-background-size:cover;
     background-size:cover;
     height:150px;
+    clear:both;
+    position: relative;
 }
 
 #content-wrap{

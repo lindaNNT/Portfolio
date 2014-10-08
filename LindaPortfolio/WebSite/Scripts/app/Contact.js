@@ -11,10 +11,12 @@ function showEmail() {
         if (mail == 'block') {
             $('#mail-me').text('Maila mig!');
             $('#email-wrap').hide();
+            $('#tumb-contact-email').css('background-color', 'white');
         }
         else {
             $('#mail-me').text('Stäng');
             $('#email-wrap').show();
+            $('#tumb-contact-email').css('background-color', 'lightblue');
 
             var target = $('#email-wrap');
             if (target.length) {
@@ -33,6 +35,7 @@ function closeEmail() {
         if (mail == 'block') {
             $('#mail-me').text('Maila mig!');
             $('#email-wrap').hide();
+            $('#tumb-contact-email').css('background-color', 'white');
         }
     });
 }

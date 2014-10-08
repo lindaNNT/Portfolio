@@ -63,16 +63,6 @@
     background-color:#ced7e0;
 }
 
-#profile-text{
-    max-width:650px;
-    margin:10px auto;
-    padding-right:15px;
-    padding-left:15px;
-    font-size:22px;
-    text-align:center;
-    font-weight:300;
-}
-
 #skills-wrap{
     width:300%;
     position:relative;
@@ -394,9 +384,6 @@
 }
 
 @media screen and (max-width: 720px){
-    #profile-text{
-        font-size:20px;
-    }
 
     .tumb-unit{
         width:75%;
@@ -479,10 +466,6 @@
     #book{
         height:85px;
         width:85px;
-    }
-
-    #profile-text{
-        font-size:18px;
     }
     
     .tumb-unit{

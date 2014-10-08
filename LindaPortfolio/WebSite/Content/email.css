@@ -7,14 +7,10 @@
     padding:20px 20px 20px 20px;
 }
 
-#nameInput{
-
-}
-
-#emailInput{
-}
-
-#email-message{
+#email-message {
+    -moz-resize:none;
+    -ms-resize:none;
+    -o-resize:none;
     resize:none;
     max-width:450px;
 }
