@@ -12,18 +12,26 @@ function showEmail() {
             $('#mail-me').text('Maila mig!');
             $('#email-wrap').hide();
             $('#tumb-contact-email').css('background-color', 'white');
+
+            var target = $('#contact');
+            if (target.length) {
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 500);
+            }
         }
         else {
             $('#mail-me').text('Stäng');
             $('#email-wrap').show();
             $('#tumb-contact-email').css('background-color', 'lightblue');
 
-            var target = $('#email-wrap');
+            var target = $('#tumb-contact-email');
             if (target.length) {
                 event.preventDefault();
                 $('html, body').animate({
                     scrollTop: target.offset().top
-                }, 1000);
+                }, 500);
             }
         }
     });
@@ -36,6 +44,14 @@ function closeEmail() {
             $('#mail-me').text('Maila mig!');
             $('#email-wrap').hide();
             $('#tumb-contact-email').css('background-color', 'white');
+
+            var target = $('#contact');
+            if (target.length) {
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 500);
+            }
         }
     });
 }

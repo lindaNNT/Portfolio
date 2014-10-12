@@ -4,8 +4,12 @@
 
 .contact-wrap{
     max-width:900px;
-    height:350px;
+    height:auto;
     margin:30px auto;
+}
+
+#contact-text{
+    max-width:700px;
 }
 
 .tumb-con-unit{
@@ -121,7 +125,7 @@
 
 #email-wrap {
     max-width:700px;
-    margin:-150px auto;
+    margin:-120px auto;
     margin-bottom:50px;
     -webkit-transition:ease-in-out 0.5s;
     -moz-transition:ease-in-out 0.5s;
@@ -133,7 +137,9 @@
 #email-container {
     border: 1px solid #b8d7e6;
     max-width:520px;
-    margin:0px auto;
+    margin:350px auto;
+    padding:10px 20px 20px 20px;
+    height:auto;
     -ms-border-radius: 5%;
     border-radius: 1%;
 }

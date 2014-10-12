@@ -198,7 +198,10 @@
     <Content Include="fonts\img\arrowRight.svg" />
     <Content Include="fonts\img\books8.svg" />
     <Content Include="fonts\img\computer25.svg" />
+    <Content Include="fonts\img\couple81.svg" />
+    <Content Include="fonts\img\couple82.svg" />
     <Content Include="fonts\img\cv.svg" />
+    <Content Include="fonts\img\dog13.svg" />
     <Content Include="fonts\img\DSC_0109.JPG" />
     <Content Include="fonts\img\DSC_0722.png" />
     <Content Include="fonts\img\DSC_1180.png" />
@@ -301,6 +304,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="fonts\country\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
