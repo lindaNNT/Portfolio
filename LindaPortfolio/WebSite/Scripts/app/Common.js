@@ -1,6 +1,6 @@
 ﻿$(function () {
     smoothScroll(500);
-    $("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' })
+    $("#header-titel").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
 
 });
 

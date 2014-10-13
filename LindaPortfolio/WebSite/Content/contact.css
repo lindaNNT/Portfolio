@@ -104,6 +104,7 @@
 }
 
 .close-btn-email {
+    padding-top: 20px;
     cursor:pointer;
     -ms-opacity:0.8;
     opacity:0.8;
@@ -126,7 +127,7 @@
 #email-wrap {
     max-width:700px;
     margin:-120px auto;
-    margin-bottom:50px;
+    margin-bottom:-300px;
     -webkit-transition:ease-in-out 0.5s;
     -moz-transition:ease-in-out 0.5s;
     -ms-transition:ease-in-out 0.5s;
@@ -139,7 +140,7 @@
     max-width:520px;
     margin:350px auto;
     padding:10px 20px 20px 20px;
-    height:auto;
+    height: auto;
     -ms-border-radius: 5%;
     border-radius: 1%;
 }
@@ -152,5 +153,11 @@
     .tumb-con-unit{
         width:100%;
         height:180px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #email-container {
+        margin:380px auto;
     }
 }

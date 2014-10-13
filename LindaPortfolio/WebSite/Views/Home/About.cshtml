@@ -22,15 +22,7 @@
         </div>
         </div>
     <br />
-    <div id="profile-text" class="context-text">
-        <p>
-            <strong>Lorem ipsum dolor sit amet, </strong>
-            consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea
-        </p>
-    </div>
+    
     <div id="arrow-wrap">
         <div id="leftArrow-wrap">
             <div id="arrowL"></div>
@@ -42,21 +34,49 @@
             <p id="arrowTextR" class="arrowText">Erfarenheter</p>
         </div>
     </div>
+
     <div id="skills-wrap">
         <div id="education-container">
             <p class="font-sub-headline">Utbildning</p>
+            <div id="education-text" class="context-text">
+                <p>
+                    <strong>Kunskap är makt! </strong>
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea
+                </p>
+            </div>
             <div id="education">
                 @{Html.RenderPartial("_Education");}
             </div>
         </div>
 
         <div id="skills-container">
-            <p class="font-sub-headline">Egenskaper</p>
+            <p class="font-sub-headline" style="margin-left: 50px;">Egenskaper</p>
+            <div id="skills-text" class="context-text">
+                <p>
+                    <strong>Lättsam, lugn och kreativ </strong>
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea
+                </p>
+            </div>
             @{Html.RenderPartial("_Skills");}
         </div>
 
         <div id="experience-container">
-            <p class="font-sub-headline">Erfarenheter</p>
+            <p class="font-sub-headline" style="margin-left: 70px;">Erfarenheter</p>
+            <div id="experience-text" class="context-text">
+                <p>
+                    <strong>Efter alla studieår så är det dags att införskaffa mig mera arbetserfarenhter! </strong>
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea
+                </p>
+            </div>
             @{Html.RenderPartial("_Experience");}
         </div>
     </div>

@@ -5,21 +5,101 @@
     margin-top:-20px;
 }
 
-#titel{
+#navigation-container{
+    position:fixed;
+    padding-top:10px;
+    width:350px;
+    z-index:1000;
+}
+
+#header-nav{
+    padding-right:0px;
+    margin: 0px auto;
+    float:none;
+    visibility:hidden;
+    transition-delay:0.1s;
+}
+
+#nav-wrap{
+    position:fixed;
+    z-index:1000;
+    width:40px;
+    height:40px;
+    text-align:center;
+    transition:ease 0.2s;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    background-color:rgba(206, 215, 224, 0.48);
+    cursor:pointer;
+}
+
+#menu-icon{
+    cursor:pointer;
+    width:40px;
+    height:20px;
+    margin-top:10px;
+    align-items:center;
+    background:url('../fonts/img/menu6.svg') no-repeat;
+    opacity:0.8;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+    visibility:visible;
+}
+
+#nav-wrap.open {
+    width:350px;
+    background-color:rgba(206, 215, 224, 0.9);
+    transition:ease-in 0.4s;
+}
+
+#nav-wrap.open > #header-nav{
+    visibility:visible;
+    transition-delay:0.4s;
+}
+
+#nav-wrap.open > #menu-icon{
+    visibility:hidden;
+    opacity:0.1;
+}
+
+#nav-wrap > #header-nav{
+    visibility:hidden;
+}
+
+#nav-wrap:hover{
+    width:350px;
+    background-color:rgba(206, 215, 224, 0.9);
+    transition:ease-in 0.4s;
+}
+
+#nav-wrap:hover #header-nav{
+    visibility:visible;
+    transition-delay:0.4s;
+}
+
+#nav-wrap:hover > #menu-icon{
+    visibility:hidden;
+    opacity:0.1;
+}
+
+#header-titel{
+    text-align:center; 
     font-size:72px;
     font-weight:700;
     color:rgba(75, 75, 75, 1);
     text-transform:uppercase;
     letter-spacing:0.05em;
-    text-align:center;
     clear:both;
     padding-top:110px;
+    margin:0px auto;
 }
 
-#titel > span{
+#header-titel > span{
     display:inline-block;
     padding:0.2em 0.2em;
     border:10px solid rgba(0,0,0,0.6);
+    margin:0px auto;
 }
 
 .kicker{
@@ -30,18 +110,18 @@
     letter-spacing:0.05em;
     text-align:center;
 }
-    
+
 @media (max-width: 640px)
 {
     #header-wrap{
         height:400px;
     }
 
-    #titel{
+    #header-titel{
         padding-top:60px;
     }
 
-    #titel > span{
+    #header-titel > span{
         border:7px solid rgba(0,0,0,0.6);
     }
 
@@ -58,7 +138,11 @@
         height:350px;
     }
 
-    #titel > span{
+    #header-nav{
+        padding-right:80px;
+    }
+
+    #header-titel > span{
         border:5px solid rgba(0,0,0,0.6);
     }
 

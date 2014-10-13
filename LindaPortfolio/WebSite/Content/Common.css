@@ -11,7 +11,7 @@
 
 .navigationMenu{
     float:right;
-    padding-top:30px;
+    padding-top:10px;
     padding-right:30px;
 }
 .navigationMenu > a{
@@ -103,8 +103,6 @@ input.input-validation-error {
     .navigationMenu{
         float:none;
         text-align:center;
-        padding-top:30px;
-        padding-right:30px;
     }
 }
 
@@ -113,7 +111,6 @@ input.input-validation-error {
     .navigationMenu{
         float:none;
         text-align:center;
-        padding-top:30px;
     }
     .navigationMenu > a{
         font-size:14px;
