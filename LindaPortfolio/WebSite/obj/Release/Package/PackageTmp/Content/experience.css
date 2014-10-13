@@ -1,0 +1,108 @@
+﻿#experience{
+    max-width:1200px;
+    margin: 0px auto;
+    color:#808080;
+    text-align:center;
+    padding-left:5%;
+}
+
+.tumb-ex-unit{
+    display:block;
+    width:33%;
+    height:180px;
+    float:left;
+    position:relative;
+    padding-top:20%;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+.tumb-ex-overlay{
+    position:absolute;
+    height:100%;
+    top:100%;
+    left:0;
+    right:0;
+    background: #76aadd;
+    opacity:0.55;
+    padding-top:60px;
+    justify-content:space-around;
+    transition:ease-in-out 0.2s;
+}
+
+.tumb-ex-overlay > strong {
+    text-align:center;
+    color:#ffffff;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:600;
+    line-height:1.2;
+    opacity:1;
+}
+
+.tumb-ex-overlay > p{
+    text-align:center;
+    color:#ffffff;
+    font-size:14px;
+    font-weight:400;
+    opacity:1;
+}
+
+.tumb-ex-unit:hover > .tumb-ex-overlay{
+    position:absolute;
+    top:0%;
+    left:0%;
+    right:0%;
+    bottom:0%;
+    background: #76aadd;
+    opacity:0.95;
+}
+
+#tumb-ex-rtg{
+    background: url('../fonts/img/DSC_1904.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+#tumb-ex-usk{
+    background: url('../fonts/img/DSC_1180.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+#tumb-ex-rest{
+    background: url('../fonts/img/DSC_0722.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+#ex-rtg-icon {
+    background: url('../fonts/img/xray.svg');
+    border-radius: 50%;
+    background-size:cover;
+    background-color:#ced7e0;
+}
+
+#ex-usk-icon {
+    background: url('../fonts/img/nurse9.svg');
+    border-radius: 50%;
+    background-size:cover;
+    background-color:#ced7e0;
+}
+
+#ex-rest-icon {
+    background: url('../fonts/img/waiter.svg');
+    border-radius: 50%;
+    background-size:cover;
+    background-color:#ced7e0;
+}
+
+@media screen and (max-width: 780px){
+    .tumb-ex-unit{
+        width:100%;
+        height:180px;
+    }
+}

@@ -1,0 +1,32 @@
+﻿<div id="leisure">
+    <br />
+    <p class="font-headline">Fritid</p>
+    
+    <div id="leisure-arrow-wrap">
+        <div id="leisure-leftArrow-wrap">
+            <div id="leisure-arrowL"></div>
+            <p id="leisure-arrowTextL" class="leisure-arrowText">Nära & Kära</p>
+
+        </div>
+        <div id="leisure-rightArrow-wrap">
+            <div id="leisure-arrowR"></div>
+            <p id="leisure-arrowTextR" class="leisure-arrowText">Intressen</p>
+        </div>
+    </div>
+
+
+    <div id="leisure-wrap">
+
+        <div id="family-container">
+            <p class="font-sub-headline">Nära & kära</p>
+            @{Html.RenderPartial("_Family");}
+        </div>
+
+        <div id="interest-container">
+            <p class="font-sub-headline">Intressen</p>
+            @{Html.RenderPartial("_Interests");}
+        </div>
+
+    </div>
+</div>
+

@@ -153,6 +153,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Common.css" />
     <Content Include="Content\contact.css" />
+    <Content Include="Content\education.css" />
     <Content Include="Content\email.css" />
     <Content Include="Content\experience.css" />
     <Content Include="Content\family.css" />
@@ -244,6 +245,35 @@
     <Content Include="Settings.config">
       <SubType>Designer</SubType>
     </Content>
+    <None Include="Properties\PublishProfiles\LindaPublish.pubxml" />
+    <Content Include="Resource\rtg\Medicin A, Fysiologi, 15.pdf" />
+    <Content Include="Resource\rtg\Medicin A, Introduktion till medicin, 7,5 högskolepoäng.pdf" />
+    <Content Include="Resource\rtg\Medicin A, Radiologi, metodik I, 15 .pdf" />
+    <Content Include="Resource\rtg\Medicin A, Strålningsfysik och radiologisk metodik I, 7,5hp.pdf" />
+    <Content Include="Resource\rtg\Medicin A, Strålningsfysik och radiologisk metodik II, 7,5.pdf" />
+    <Content Include="Resource\rtg\Medicin A, Vetenskaplig grundkurs, 7,5hp.pdf" />
+    <Content Include="Resource\rtg\Medicin B, Anatomi, 7,5 .pdf" />
+    <Content Include="Resource\rtg\Medicin B, Radiologi, metodik II, 22,5.pdf" />
+    <Content Include="Resource\rtg\Medicin B, Sjukdomslära med farmakologi, 15.pdf" />
+    <Content Include="Resource\rtg\Medicin B, Strålningsfysik och radiologisk metodik III, 7,5.pdf" />
+    <Content Include="Resource\rtg\Medicin C, Diagnostik inom radiologi, 7,5 .pdf" />
+    <Content Include="Resource\rtg\Medicin C, Examensarbete, 15 .pdf" />
+    <Content Include="Resource\rtg\Medicin C, Radiologi, metodik III, 7,5.pdf" />
+    <Content Include="Resource\rtg\Omvårdnadsvetenskap A, 15.pdf" />
+    <Content Include="Resource\rtg\Omvårdnadsvetenskap A, akut och svårt sjuk patient, 7,5.pdf" />
+    <Content Include="Resource\rtg\Omvårdnadsvetenskap A, Dokumentation, kvalitet och evidens, 7,5.pdf" />
+    <Content Include="Resource\rtg\Vårdkommunikation A, Ledarskap i vården, 7,5 hp.pdf" />
+    <Content Include="Resource\Informatik\Informatik B, Databashantering med SQL Server, 7,5.pdf" />
+    <Content Include="Resource\Informatik\Informatik B, Interaktionsdesign, 7,5 .pdf" />
+    <Content Include="Resource\Informatik\Informatik B, Klientprogrammering för webbsystem, 7,5.pdf" />
+    <Content Include="Resource\Informatik\Informatik B, Objektorienterad analys och design med RUP, 7,5.pdf" />
+    <Content Include="Resource\Informatik\Informatik B, Objektorienterad programmering med C, 7,5.pdf" />
+    <Content Include="Resource\Informatik\Informatik B, Systemutvecklingsprojekt med Scrum och Extreme Programming, 7,5 .pdf" />
+    <Content Include="Resource\Informatik\Informatik B, Systemutvecklingsprojekt, 30.pdf" />
+    <Content Include="Resource\Informatik\Informatik B, Verksamhetsmodellering med RUP, 7,5.pdf" />
+    <Content Include="Resource\Informatik\Informatik B, Webbsystem med .NET, 7,5.pdf" />
+    <Content Include="Resource\Informatik\Informatik med systemvetenskaplig inriktning A, 30.pdf" />
+    <Content Include="Resource\Informatik\Informatik med systemvetenskaplig inriktning C, 30.pdf" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\app\About.js" />
     <Content Include="Scripts\app\Common.js" />
@@ -304,6 +334,8 @@
     <Content Include="Views\Home\Leisure.cshtml" />
     <Content Include="Views\Home\_Family.cshtml" />
     <Content Include="Views\Home\_Email.cshtml" />
+    <Content Include="Views\Home\_Educationsplans.cshtml" />
+    <Content Include="Views\Home\_EducationsplansRTG.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -330,7 +362,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>3304</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:8080/</IISUrl>
+          <IISUrl>http://localhost:8080/nnt</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

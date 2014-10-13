@@ -1,0 +1,25 @@
+﻿#interests{
+    max-width:900px;
+    margin:0px auto; 
+    clear:both;
+}
+
+#country-wrap{
+    text-align:center;
+    margin:0px auto; 
+}
+
+#country-text{
+    cursor:pointer;
+    color:#062f70;
+}
+
+#country-text:hover{
+    text-decoration:underline;
+}
+
+#googleMap{
+    margin:0px auto; 
+    max-width:800px;
+    height:350px;
+}

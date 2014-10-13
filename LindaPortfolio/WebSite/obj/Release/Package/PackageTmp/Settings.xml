@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"  encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <section name="Settings"  type="WebSite.Resource.SettingsSection" />
+  </configSections>
+  <Settings>
+    <clear />
+    <add key="CVpdf" value="hej inne i xml" />
+  </Settings>
+</configuration>

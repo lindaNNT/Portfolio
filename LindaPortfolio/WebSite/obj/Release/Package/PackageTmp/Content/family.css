@@ -1,0 +1,57 @@
+﻿#family{
+    max-width:900px;
+    margin:0px auto;
+    clear:both;
+    text-align:center;
+}
+
+#family-wrap{
+    clear:both;
+    float:none;
+    max-width:250px;
+    height:300px;
+    text-align:center;
+    margin:0px auto;
+}
+
+#family-icon{
+    float:left;
+    background: url('../fonts/img/couple81.svg');
+    width: 150px;
+    height:250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -ms-background-size: cover;
+}
+
+#dog-icon{
+    float:left;
+    margin-top:120px;
+    background: url('../fonts/img/dog13.svg');
+    width: 100px;
+    height:150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -ms-background-size: cover;
+}
+
+@media screen and (max-width: 350px){
+    
+    #family-wrap{
+        max-width:190px;
+        height:150px;
+    }
+
+    #family-icon{
+        width: 100px;
+        height:150px;
+    }
+
+    #dog-icon{
+        width: 90px;
+        height:70px;
+        margin-top:90px;
+    }
+}

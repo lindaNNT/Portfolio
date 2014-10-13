@@ -43,6 +43,7 @@ namespace WebSite
                       "~/Content/bootstrap.css",
                       "~/Content/header.scss",
                       "~/Content/experience.css",
+                      "~/Content/education.css",
                       "~/Content/about.scss",
                       "~/Content/leisure.css",
                       "~/Content/intrests.css",

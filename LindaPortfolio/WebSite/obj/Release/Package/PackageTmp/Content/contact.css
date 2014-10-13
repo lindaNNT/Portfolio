@@ -1,0 +1,163 @@
+﻿#contact{
+    height:auto;
+}
+
+.contact-wrap{
+    max-width:900px;
+    height:auto;
+    margin:30px auto;
+}
+
+#contact-text{
+    max-width:700px;
+}
+
+.tumb-con-unit{
+    display:block;
+    width:33%;
+    height:180px;
+    float:left;
+    position:relative;
+    padding-top:20%;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+.tumb-con-overlay {
+    position:absolute;
+    height:100%;
+    top:100%;
+    left:0;
+    right:0;
+    background: #76aadd;
+    -ms-opacity:0.55;
+    opacity:0.55;
+    padding-top:60px;
+    justify-content:space-around;
+    -webkit-transition:ease-in-out 0.2s;
+    -moz-transition:ease-in-out 0.2s;
+    -ms-transition:ease-in-out 0.2s;
+    -o-transition:ease-in-out 0.2s;
+    transition:ease-in-out 0.2s;
+    text-align:center;
+}
+
+.tumb-con-overlay > strong {
+    text-align:center;
+    color:#ffffff;
+    font-size:20px;
+    font-weight:600;
+    line-height:1.2;
+    -ms-opacity:1;
+    opacity:1;
+}
+
+.tumb-con-overlay > p {
+    text-align:center;
+    color:#ffffff;
+    font-size:14px;
+    font-weight:400;
+    -ms-opacity:1;
+    opacity:1;
+}
+
+.tumb-con-overlay > a {
+    text-align:center;
+    color:#ffffff;
+    font-size:16px;
+    font-weight:300;
+    -ms-opacity:1;
+    opacity:1;
+}
+
+.tumb-con-unit:hover > .tumb-con-overlay {
+    position:absolute;
+    top:0%;
+    left:0%;
+    right:0%;
+    bottom:0%;
+    background: #76aadd;
+    -ms-opacity:0.95;
+    opacity:0.95;
+}
+
+#tumb-contact-CV {
+    background: url('../fonts/img/cv.svg');
+    background-repeat:no-repeat;
+    background-color: white;
+    -ms-background-size:contain;
+    background-size:contain;
+    background-position: center center;
+}
+
+#tumb-contact-email {
+    background: url('../fonts/img/mail.svg');
+    background-repeat:no-repeat;
+    background-color: white;
+    -ms-background-size:contain;
+    background-size:contain;
+    background-position: center center;
+}
+
+#mail-me{
+    cursor:pointer;
+}
+
+.close-btn-email {
+    padding-top: 20px;
+    cursor:pointer;
+    -ms-opacity:0.8;
+    opacity:0.8;
+}
+
+.close-btn-email:hover {
+    -ms-opacity:1;
+    opacity:1;
+}
+
+#tumb-contact-linkedin {
+    background: url('../fonts/img/linked.svg');
+    background-repeat:no-repeat;
+    background-color: white;
+    -ms-background-size:contain;
+    background-size:contain;
+    background-position: center center;
+}
+
+#email-wrap {
+    max-width:700px;
+    margin:-120px auto;
+    margin-bottom:-300px;
+    -webkit-transition:ease-in-out 0.5s;
+    -moz-transition:ease-in-out 0.5s;
+    -ms-transition:ease-in-out 0.5s;
+    -o-transition:ease-in-out 0.5s;
+    transition:ease-in-out 0.5s;
+}
+
+#email-container {
+    border: 1px solid #b8d7e6;
+    max-width:520px;
+    margin:350px auto;
+    padding:10px 20px 20px 20px;
+    height: auto;
+    -ms-border-radius: 5%;
+    border-radius: 1%;
+}
+
+#email_lbl_respond{
+    display:none;
+}
+
+@media screen and (max-width: 780px){
+    .tumb-con-unit{
+        width:100%;
+        height:180px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #email-container {
+        margin:380px auto;
+    }
+}

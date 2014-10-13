@@ -1,0 +1,78 @@
+﻿.about-text-beginText{
+    font-size:19px;
+    color:black;
+    font-weight:700;
+}
+
+.about-text-highlight{
+    font-size:18px;
+    color:black;
+}
+
+.ed-plan{
+    font-size:18px;
+    padding-top:10px;
+}
+
+.ed-plan > a{
+    font-size:14px;
+}
+
+.skills-fontHeader{
+    text-transform:uppercase;
+    font-size:34px;
+    color:#1b1b1b;
+    text-align:center;
+    line-height:1.2;
+    font-weight:700;
+    color:#356ca1;
+}
+
+.skills-exam{
+    font-size:18px;
+    color:#564f4f;
+    text-align:center;
+    letter-spacing:0.05em;
+    text-transform:uppercase;
+    font-weight:400;
+}
+
+.skills-text{
+    padding-top:20px;
+    font-size:16px;
+    text-align:center;
+}
+
+@media screen and (max-width: 600px) {
+    .skills-fontHeader{
+        font-size:28px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .skills-fontHeader{
+        font-size:24px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .about-text-beginText{
+    font-size:16px;
+}
+
+.about-text-highlight{
+    font-size:15px;
+}
+
+    .skills-fontHeader{
+        font-size:16px;
+    }
+
+    .skills-exam{
+        font-size:14px;
+    }
+
+    .skills-text{
+        font-size:14px;
+    }
+}
