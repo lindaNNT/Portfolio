@@ -1,5 +1,6 @@
 ﻿#contact{
     height:auto;
+    overflow-x:hidden;
 }
 
 .contact-wrap{

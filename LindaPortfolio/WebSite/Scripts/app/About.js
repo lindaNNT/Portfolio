@@ -68,49 +68,36 @@ function popUp()
 {
     $('#tumb-systemvetare').click(function () {
         $('#ed-systemvetare').css('display','block');
-        $('#black_overlay').css('display', 'block');
         $('#fade').css('display', 'block');
     });
 
     $('#tumb-system').click(function () {
         $('#ed-system').css('display', 'block');
-        $('#black_overlay').css('display', 'block');
         $('#fade').css('display', 'block');
     });
 
     $('#tumb-rtgssk').click(function () {
         $('#ed-xray').css('display', 'block');
-        $('#black_overlay').css('display', 'block');
         $('#fade').css('display', 'block');
     });
 
     $('#tumb-usk').click(function () {
         $('#ed-nurse').css('display', 'block');
-        $('#black_overlay').css('display', 'block');
-        $('#fade').css('display', 'block');
-    });
-
-    $('#tumb-systemvetare').click(function () {
-        $('#ed-systemvetare').css('display', 'block');
-        $('#black_overlay').css('display', 'block');
         $('#fade').css('display', 'block');
     });
 
     $('#tumb-ex-rtg').click(function () {
         $('#ex-rtg').css('display', 'block');
-        $('#black_overlay').css('display', 'block');
         $('#fade').css('display', 'block');
     });
 
     $('#tumb-ex-usk').click(function () {
         $('#ex-usk').css('display', 'block');
-        $('#black_overlay').css('display', 'block');
         $('#fade').css('display', 'block');
     });
 
     $('#tumb-ex-rest').click(function () {
         $('#ex-rest').css('display', 'block');
-        $('#black_overlay').css('display', 'block');
         $('#fade').css('display', 'block');
     });
 

@@ -26,7 +26,6 @@ namespace WebSite.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            ViewBag.Respond = "";
             return View();
         }
 

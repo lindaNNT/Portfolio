@@ -44,6 +44,7 @@ namespace WebSite
                       "~/Content/header.scss",
                       "~/Content/experience.css",
                       "~/Content/education.css",
+                      "~/Content/popups.css",
                       "~/Content/about.scss",
                       "~/Content/leisure.css",
                       "~/Content/intrests.css",
