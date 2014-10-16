@@ -150,34 +150,6 @@
     clear:both;
 }
 
-.thumb-container{
-    display:none;
-    position: absolute;
-    top: 125%;
-    left: 25%;
-    width: 50%;
-    height: 50%;
-    padding: 16px;
-    border: 5px solid #76aadd;
-    background-color: white;
-    z-index:1002;
-    overflow: auto;
-}
-
-.black_overlay{
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    z-index:1001;
-    -moz-opacity: 0.8;
-    opacity:.80;
-    filter: alpha(opacity=80);
-}
-
 .close-btn{
     cursor:pointer;
     opacity:0.7;
@@ -347,15 +319,6 @@
     border: 5px solid #ededed;
 }
 
-
-@media screen and (max-width: 1300px){
-    .thumb-container{
-        left:10%;
-        width: 80%;
-        height: 50%;
-    }
-}
-
 @media screen and (max-width: 720px){
 
     .tumb-unit{
@@ -386,11 +349,6 @@
 }
 
 @media screen and (max-width: 420px){
-    .thumb-container{
-        left:0%;
-        width: 100%;
-        height: 50%;
-    }
 
     .tumb-unit{
         width:100%;

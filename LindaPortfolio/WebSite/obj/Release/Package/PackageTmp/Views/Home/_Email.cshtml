@@ -9,19 +9,19 @@
 
         <div class="form-group">
             <label>Namn</label>
-            @Html.TextBoxFor(model => model.Name, new { id ="nameInput", @class = "form-control", placeholder = "Namn"})
+            @Html.TextBoxFor(model => model.Name, new { id = "nameInput", @class = "form-control", placeholder = "Skriv namn" })
             @Html.ValidationMessageFor(model => model.Name)
         </div>
 
         <div class="form-group">
             <label>E-mail</label>
-            @Html.TextBoxFor(model => model.MailAdress, new { id = "emailInput", @class = "form-control", placeholder = "E-mail" })
+            @Html.TextBoxFor(model => model.MailAdress, new { id = "emailInput", @class = "form-control", placeholder = "Skriv e-mail" })
             @Html.ValidationMessageFor(model => model.MailAdress)
         </div>
 
         <div class="form-group">
             <label>Meddelande</label>
-            @Html.TextAreaFor(model => model.Message, new { id = "emailInput", @class = "form-control", placeholder = "E-mail", @style = "resize:none;max-width:450px;" })
+            @Html.TextAreaFor(model => model.Message, new { id = "emailInput", @class = "form-control", placeholder = "Skriv meddelande", @style = "resize:none;max-width:450px;" })
             @Html.ValidationMessageFor(model => model.Message)
         </div>
         <p>@Html.ValidationSummary(false, "")</p>

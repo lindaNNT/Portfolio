@@ -5,8 +5,11 @@
 
 .body-container{
     margin-top:-50px;
+    margin-bottom:-20px;
     padding:0px 0px 0px 0px; 
     width:auto;
+    overflow-x:hidden;
+    overflow-y:hidden;
 }
 
 .navigationMenu{

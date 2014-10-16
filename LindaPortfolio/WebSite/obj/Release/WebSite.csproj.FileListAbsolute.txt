@@ -167,3 +167,4 @@ C:\Users\Linda\Dropbox\Portfolio\LindaPortfolio\WebSite\bin\zh-Hant\System.Spati
 C:\Users\Linda\Dropbox\Portfolio\LindaPortfolio\WebSite\obj\Release\WebSite.csprojResolveAssemblyReference.cache
 C:\Users\Linda\Dropbox\Portfolio\LindaPortfolio\WebSite\obj\Release\WebSite.dll
 C:\Users\Linda\Dropbox\Portfolio\LindaPortfolio\WebSite\obj\Release\WebSite.pdb
+C:\Users\Sammie\Dropbox\Portfolio\LindaPortfolio\WebSite\obj\Release\WebSite.csprojResolveAssemblyReference.cache

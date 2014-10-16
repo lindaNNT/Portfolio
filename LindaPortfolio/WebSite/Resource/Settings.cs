@@ -11,33 +11,62 @@ namespace WebSite.Resource
 {
     public class Settings
     {
-        private string _myMail { get; set; }
-        private string _myPass { get; set; }
-        private string _mailSub { get; set; }
-        private string _smtpServer { get; set; }
+        private string _myMail;
+        private string _myPass;
+        private string _mailSub;
+        private string _smtpServer;
+
+        public Settings() 
+        {
+            SetMyMail();
+            SetMyPass();
+            SetMailSubject();
+            SetSmtpServer();
+
+        }
 
         public string GetMyMail()
         {
-            _myMail = ConfigurationManager.AppSettings["MyMail"];
-            return _myMail;
+            var myMail = _myMail;
+            return myMail;
+        }
+
+        private void SetMyMail()
+        {
+           _myMail = "lindalieunguyen@outlook.com";
         }
 
         public string GetMyPass()
         {
-            _myPass = ConfigurationManager.AppSettings["MyP"];
-            return _myPass;
+            var myPass = _myPass;
+            return myPass;
+        }
+
+        private void SetMyPass()
+        {
+            _myPass = "Work88Mail";
         }
 
         public string GetMailSubject()
         {
-            _mailSub = ConfigurationManager.AppSettings["MailSubject"];
-            return _mailSub;
+            var mailSub = _mailSub;
+            return mailSub;
+        }
+
+        private void SetMailSubject()
+        {
+            _mailSub = "Linda Portfolio e-mail";
         }
 
         public string GetSmtpServer()
         {
-            _smtpServer = ConfigurationManager.AppSettings["smtpServer"];
+            var smtpServer = _smtpServer;
             return _smtpServer;
+        }
+
+        private void SetSmtpServer()
+        {
+            _smtpServer = "smtp.live.com";
         }
     }
 }
