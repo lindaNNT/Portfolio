@@ -4,7 +4,7 @@
     background-color:#d4e3ea;
 }
 
-#leisure-wrap{
+#leisure-wrap {
     width:200%;
     position:relative;
     left:0%;
@@ -12,6 +12,10 @@
     font-size:15px;
     font-weight:bold;
     overflow-x:hidden;
+    -webkit-transition:ease-in-out 0.5s;
+    -moz-transition:ease-in-out 0.5s;
+    -ms-transition:ease-in-out 0.5s;
+    -o-transition:ease-in-out 0.5s;
     transition:ease-in-out 0.5s;
 }
 
@@ -32,20 +36,24 @@
     width:80px;
 }
 
-#leisure-arrowL{
+#leisure-arrowL {
     height:40px;
     width:40px;
     margin:0px auto;
+    -ms-border-radius: 50%;
     border-radius: 50%;
     background: url('../fonts/img/arrowLeft.svg') no-repeat;
+    -ms-background-size:cover;
     background-size:cover;
     background-color:#ffffff;
     border: 3px solid black;
+    -ms-opacity: 0.5;
     opacity: 0.5;
     cursor:pointer;
 }
 
-#leisure-arrowL:hover{
+#leisure-arrowL:hover {
+    -ms-opacity: 0.75;
     opacity: 0.75;
 }
 
@@ -55,27 +63,32 @@
     width:80px;
 }
 
-#leisure-arrowR{
+#leisure-arrowR {
     margin:0px auto;
     height:40px;
     width:40px;
+    -ms-border-radius: 50%;
     border-radius: 50%;
     background: url('../fonts/img/arrowRight.svg') no-repeat;
+    -ms-background-size:cover;
     background-size:cover;
     background-color:#ffffff;
     border: 3px solid black;
+    -ms-opacity: 0.5;
     opacity: 0.5;
     cursor:pointer;
 }
 
-#leisure-arrowR:hover{
+#leisure-arrowR:hover {
+    -ms-opacity: 0.75;
     opacity: 0.75;
 }
 
-.leisure-arrowText{
+.leisure-arrowText {
     margin-top:5px;
     text-align:center;
     text-transform:uppercase;
     font-size:12px;
+    -ms-opacity:0.75;
     opacity:0.75;
 }
