@@ -91,7 +91,7 @@
 }
 
 #ex-rtg-icon {
-    background: url('../fonts/img/xray.svg');
+    background: url('../fonts/img/xray.png');
     -ms-border-radius: 50%;
     border-radius: 50%;
     -ms-background-size:cover;
@@ -100,7 +100,7 @@
 }
 
 #ex-usk-icon {
-    background: url('../fonts/img/nurse9.svg');
+    background: url('../fonts/img/nurse9.png');
     -ms-border-radius: 50%;
     border-radius: 50%;
     -ms-background-size:cover;
@@ -109,7 +109,7 @@
 }
 
 #ex-rest-icon {
-    background: url('../fonts/img/waiter.svg');
+    background: url('../fonts/img/waiter.png');
     -ms-border-radius: 50%;
     border-radius: 50%;
     -ms-background-size:cover;

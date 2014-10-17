@@ -17,16 +17,21 @@
     cursor:pointer;
 }
 
-.tumb-ex-overlay{
+.tumb-ex-overlay {
     position:absolute;
     height:100%;
     top:100%;
     left:0;
     right:0;
     background: #76aadd;
+    -ms-opacity:0.55;
     opacity:0.55;
     padding-top:60px;
     justify-content:space-around;
+    -webkit-transition:ease-in-out 0.2s;
+    -moz-transition:ease-in-out 0.2s;
+    -ms-transition:ease-in-out 0.2s;
+    -o-transition:ease-in-out 0.2s;
     transition:ease-in-out 0.2s;
 }
 
@@ -37,65 +42,77 @@
     text-transform:uppercase;
     font-weight:600;
     line-height:1.2;
+    -ms-opacity:1;
     opacity:1;
 }
 
-.tumb-ex-overlay > p{
+.tumb-ex-overlay > p {
     text-align:center;
     color:#ffffff;
     font-size:14px;
     font-weight:400;
+    -ms-opacity:1;
     opacity:1;
 }
 
-.tumb-ex-unit:hover > .tumb-ex-overlay{
+.tumb-ex-unit:hover > .tumb-ex-overlay {
     position:absolute;
     top:0%;
     left:0%;
     right:0%;
     bottom:0%;
     background: #76aadd;
+    -ms-opacity:0.95;
     opacity:0.95;
 }
 
-#tumb-ex-rtg{
+#tumb-ex-rtg {
     background: url('../fonts/img/DSC_1904.png');
     background-repeat:no-repeat;
+    -ms-background-size:cover;
     background-size:cover;
     background-position: center center;
 }
 
-#tumb-ex-usk{
+#tumb-ex-usk {
     background: url('../fonts/img/DSC_1180.png');
     background-repeat:no-repeat;
+    -ms-background-size:cover;
     background-size:cover;
     background-position: center center;
 }
 
-#tumb-ex-rest{
+#tumb-ex-rest {
     background: url('../fonts/img/DSC_0722.png');
     background-repeat:no-repeat;
+    -ms-background-size:cover;
     background-size:cover;
     background-position: center center;
 }
 
 #ex-rtg-icon {
-    background: url('../fonts/img/xray.svg');
+    background: url('../fonts/img/xray.png');
+    -ms-border-radius: 50%;
     border-radius: 50%;
+    -ms-background-size:cover;
     background-size:cover;
     background-color:#ced7e0;
 }
 
 #ex-usk-icon {
-    background: url('../fonts/img/nurse9.svg');
+    background: url('../fonts/img/nurse9.png');
+    -ms-border-radius: 50%;
     border-radius: 50%;
+    -ms-background-size:cover;
     background-size:cover;
     background-color:#ced7e0;
 }
 
 #ex-rest-icon {
-    background: url('../fonts/img/waiter.svg');
+    background: url('../fonts/img/waiter.png');
+    -ms-border-radius: 50%;
     border-radius: 50%;
+    -ms-background-size:cover;
     background-size:cover;
     background-color:#ced7e0;
 }

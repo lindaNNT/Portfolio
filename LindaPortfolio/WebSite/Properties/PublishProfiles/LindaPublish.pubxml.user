@@ -175,7 +175,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/23/2014 17:59:40</publishTime>
     </File>
     <File Include="bin/WebSite.dll">
-      <publishTime>10/16/2014 16:24:22</publishTime>
+      <publishTime>10/17/2014 22:21:59</publishTime>
     </File>
     <File Include="bin/zh-CHS/AjaxControlToolkit.resources.dll">
       <publishTime>09/20/2014 15:03:56</publishTime>
@@ -202,7 +202,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/20/2014 15:03:52</publishTime>
     </File>
     <File Include="Content/about.scss">
-      <publishTime>10/15/2014 17:34:19</publishTime>
+      <publishTime>10/17/2014 22:19:03</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
       <publishTime>09/20/2014 14:46:27</publishTime>
@@ -226,34 +226,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/15/2014 16:47:13</publishTime>
     </File>
     <File Include="Content/contact.css">
-      <publishTime>10/15/2014 15:46:20</publishTime>
+      <publishTime>10/17/2014 22:52:00</publishTime>
     </File>
     <File Include="Content/education.css">
-      <publishTime>10/15/2014 18:14:53</publishTime>
+      <publishTime>10/17/2014 23:02:52</publishTime>
     </File>
     <File Include="Content/email.css">
       <publishTime>10/08/2014 21:02:25</publishTime>
     </File>
     <File Include="Content/experience.css">
-      <publishTime>09/30/2014 22:33:16</publishTime>
+      <publishTime>10/17/2014 21:55:11</publishTime>
     </File>
     <File Include="Content/family.css">
-      <publishTime>10/13/2014 01:17:46</publishTime>
+      <publishTime>10/17/2014 22:08:37</publishTime>
     </File>
     <File Include="Content/footer.css">
-      <publishTime>10/15/2014 16:10:55</publishTime>
+      <publishTime>10/16/2014 23:28:37</publishTime>
     </File>
     <File Include="Content/header.scss">
-      <publishTime>10/15/2014 15:59:09</publishTime>
+      <publishTime>10/17/2014 22:15:27</publishTime>
     </File>
     <File Include="Content/intrests.css">
-      <publishTime>10/13/2014 01:18:04</publishTime>
+      <publishTime>10/17/2014 22:42:14</publishTime>
     </File>
     <File Include="Content/leisure.css">
-      <publishTime>10/13/2014 01:13:55</publishTime>
+      <publishTime>10/17/2014 21:55:12</publishTime>
     </File>
     <File Include="Content/popups.css">
-      <publishTime>10/16/2014 16:23:05</publishTime>
+      <publishTime>10/17/2014 22:20:00</publishTime>
     </File>
     <File Include="Content/Site.css">
       <publishTime>09/20/2014 14:34:07</publishTime>
@@ -378,17 +378,32 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="fonts/glyphicons-halflings-regular.woff">
       <publishTime>09/20/2014 14:46:27</publishTime>
     </File>
+    <File Include="fonts/img/arrowLeft.png">
+      <publishTime>10/17/2014 20:56:48</publishTime>
+    </File>
     <File Include="fonts/img/arrowLeft.svg">
       <publishTime>09/29/2014 19:28:06</publishTime>
+    </File>
+    <File Include="fonts/img/arrowRight.png">
+      <publishTime>10/17/2014 20:57:05</publishTime>
     </File>
     <File Include="fonts/img/arrowRight.svg">
       <publishTime>09/29/2014 19:27:47</publishTime>
     </File>
+    <File Include="fonts/img/books8.png">
+      <publishTime>10/17/2014 22:05:21</publishTime>
+    </File>
     <File Include="fonts/img/books8.svg">
       <publishTime>09/26/2014 00:12:29</publishTime>
     </File>
+    <File Include="fonts/img/computer25.png">
+      <publishTime>10/17/2014 22:04:54</publishTime>
+    </File>
     <File Include="fonts/img/computer25.svg">
       <publishTime>09/25/2014 23:13:08</publishTime>
+    </File>
+    <File Include="fonts/img/couple81.png">
+      <publishTime>10/17/2014 22:05:32</publishTime>
     </File>
     <File Include="fonts/img/couple81.svg">
       <publishTime>10/12/2014 15:23:29</publishTime>
@@ -396,8 +411,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="fonts/img/couple82.svg">
       <publishTime>10/12/2014 15:23:06</publishTime>
     </File>
+    <File Include="fonts/img/cv.png">
+      <publishTime>10/17/2014 22:06:18</publishTime>
+    </File>
     <File Include="fonts/img/cv.svg">
       <publishTime>10/08/2014 16:51:27</publishTime>
+    </File>
+    <File Include="fonts/img/dog13.png">
+      <publishTime>10/17/2014 22:05:52</publishTime>
     </File>
     <File Include="fonts/img/dog13.svg">
       <publishTime>10/12/2014 15:21:59</publishTime>
@@ -438,29 +459,53 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="fonts/img/Footer.png">
       <publishTime>09/23/2014 22:45:39</publishTime>
     </File>
+    <File Include="fonts/img/linked.png">
+      <publishTime>10/17/2014 22:06:30</publishTime>
+    </File>
     <File Include="fonts/img/linked.svg">
       <publishTime>09/25/2014 23:14:37</publishTime>
     </File>
     <File Include="fonts/img/living1.svg">
       <publishTime>09/26/2014 00:11:51</publishTime>
     </File>
+    <File Include="fonts/img/mail.png">
+      <publishTime>10/17/2014 22:06:52</publishTime>
+    </File>
     <File Include="fonts/img/mail.svg">
       <publishTime>10/08/2014 16:52:41</publishTime>
+    </File>
+    <File Include="fonts/img/menu48.png">
+      <publishTime>10/17/2014 22:12:01</publishTime>
     </File>
     <File Include="fonts/img/menu6.svg">
       <publishTime>10/13/2014 10:27:05</publishTime>
     </File>
+    <File Include="fonts/img/nurse9.png">
+      <publishTime>10/17/2014 22:07:25</publishTime>
+    </File>
     <File Include="fonts/img/nurse9.svg">
       <publishTime>09/30/2014 22:27:35</publishTime>
+    </File>
+    <File Include="fonts/img/paint41.png">
+      <publishTime>10/17/2014 22:05:06</publishTime>
     </File>
     <File Include="fonts/img/paint41.svg">
       <publishTime>09/26/2014 00:08:55</publishTime>
     </File>
+    <File Include="fonts/img/photographer1.png">
+      <publishTime>10/17/2014 22:04:40</publishTime>
+    </File>
     <File Include="fonts/img/photographer1.svg">
       <publishTime>09/26/2014 00:04:27</publishTime>
     </File>
+    <File Include="fonts/img/waiter.png">
+      <publishTime>10/17/2014 22:07:15</publishTime>
+    </File>
     <File Include="fonts/img/waiter.svg">
       <publishTime>09/30/2014 22:30:23</publishTime>
+    </File>
+    <File Include="fonts/img/xray.png">
+      <publishTime>10/17/2014 22:07:04</publishTime>
     </File>
     <File Include="fonts/img/xray.svg">
       <publishTime>09/30/2014 22:27:17</publishTime>
@@ -490,7 +535,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/30/2014 15:43:12</publishTime>
     </File>
     <File Include="Resource/CV Linda Nguyen 2014.pdf">
-      <publishTime>09/01/2014 13:15:47</publishTime>
+      <publishTime>10/17/2014 02:14:36</publishTime>
     </File>
     <File Include="Resource/Informatik/Informatik B, Databashantering med SQL Server, 7,5.pdf">
       <publishTime>10/13/2014 21:39:20</publishTime>
@@ -592,7 +637,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/13/2014 11:24:33</publishTime>
     </File>
     <File Include="Scripts/app/Leisure.js">
-      <publishTime>10/13/2014 01:08:24</publishTime>
+      <publishTime>10/17/2014 23:39:57</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>09/20/2014 14:46:27</publishTime>
@@ -670,10 +715,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/03/2014 13:48:02</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>10/15/2014 18:11:32</publishTime>
+      <publishTime>10/17/2014 02:13:34</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
-      <publishTime>10/15/2014 15:48:17</publishTime>
+      <publishTime>10/17/2014 22:58:05</publishTime>
     </File>
     <File Include="Views/Home/Footer.cshtml">
       <publishTime>10/16/2014 16:38:30</publishTime>
@@ -685,13 +730,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/15/2014 16:58:06</publishTime>
     </File>
     <File Include="Views/Home/Leisure.cshtml">
-      <publishTime>10/12/2014 16:05:04</publishTime>
+      <publishTime>10/17/2014 00:34:54</publishTime>
     </File>
     <File Include="Views/Home/_Education.cshtml">
       <publishTime>09/30/2014 17:02:40</publishTime>
     </File>
     <File Include="Views/Home/_EducationPopUp.cshtml">
-      <publishTime>10/16/2014 16:20:30</publishTime>
+      <publishTime>10/17/2014 23:05:08</publishTime>
     </File>
     <File Include="Views/Home/_Educationsplans.cshtml">
       <publishTime>10/14/2014 00:15:12</publishTime>
@@ -709,10 +754,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/16/2014 16:14:20</publishTime>
     </File>
     <File Include="Views/Home/_Family.cshtml">
-      <publishTime>10/16/2014 15:46:58</publishTime>
+      <publishTime>10/17/2014 00:13:56</publishTime>
     </File>
     <File Include="Views/Home/_Interests.cshtml">
-      <publishTime>10/13/2014 13:44:46</publishTime>
+      <publishTime>10/17/2014 22:43:56</publishTime>
     </File>
     <File Include="Views/Home/_Skills.cshtml">
       <publishTime>10/13/2014 14:08:08</publishTime>
@@ -733,7 +778,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/20/2014 14:34:07</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/16/2014 16:24:25</publishTime>
+      <publishTime>10/17/2014 02:16:13</publishTime>
     </File>
   </ItemGroup>
 </Project>

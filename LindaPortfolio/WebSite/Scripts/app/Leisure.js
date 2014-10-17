@@ -47,10 +47,10 @@ function showMap() {
     $('#country-text').click(function (event) {
         var map = $('#googleMap').css('display');
         if (map == 'block') {
-            $('#country-text').text('Klicka här för att se vilka länder jag har rest till!');
+            $('#country-text-end').text(' för att se vilka länder jag har rest till!');
             $('#googleMap').hide();
 
-            var target = $('#interest-container');
+            var target = $('#leisure');
             if (target.length) {
                 event.preventDefault();
                 $('html, body').animate({
@@ -59,7 +59,7 @@ function showMap() {
             }
         }
         else {
-            $('#country-text').text('Klicka här för att stänga kartan.');
+            $('#country-text-end').text(' för att stänga kartan.');
             $('#googleMap').show();
 
             var target = $('#country-text');

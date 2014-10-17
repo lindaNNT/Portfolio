@@ -44,6 +44,10 @@
     text-align:center;
 }
 
+#ed-nurse {
+    padding-bottom: 50px;
+}
+
 @media screen and (max-width: 600px) {
     .skills-fontHeader{
         font-size:28px;

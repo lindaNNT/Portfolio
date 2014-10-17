@@ -4,8 +4,48 @@
     background-color:#d4e3ea;
 }
 
+#icon-wrap{
+    max-width:700px;
+    margin:0px auto;
+}
+
+
+.leisure-icon {
+    height:100px;
+    width:100px;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid #abb7c9;
+    margin:10px auto;
+}
+
+#camera {
+    background: url('../fonts/img/photographer1.png') no-repeat;
+    -ms-background-size:cover;
+    background-size:cover;
+}
+
+#computer {
+    background: url('../fonts/img/computer25.png') no-repeat;
+    -ms-background-size:cover;
+    background-size:cover;
+}
+
+#pencil {
+    background: url('../fonts/img/paint41.png') no-repeat;
+    -ms-background-size:cover;
+    background-size:cover;
+}
+
+#book {
+    background: url('../fonts/img/books8.png') no-repeat;
+    -ms-background-size:cover;
+    background-size:cover;
+}
+
 #leisure-wrap {
     width:200%;
+    margin-top: -30px;
     position:relative;
     left:0%;
     height:auto;
@@ -27,7 +67,7 @@
 #leisure-arrow-wrap{
     height:80px;
     max-width:200px;
-    margin:0px auto;
+    margin:30px auto;
 }
 
 #leisure-leftArrow-wrap{
@@ -42,7 +82,7 @@
     margin:0px auto;
     -ms-border-radius: 50%;
     border-radius: 50%;
-    background: url('../fonts/img/arrowLeft.svg') no-repeat;
+    background: url('../fonts/img/arrowLeft.png') no-repeat;
     -ms-background-size:cover;
     background-size:cover;
     background-color:#ffffff;
@@ -69,7 +109,7 @@
     width:40px;
     -ms-border-radius: 50%;
     border-radius: 50%;
-    background: url('../fonts/img/arrowRight.svg') no-repeat;
+    background: url('../fonts/img/arrowRight.png') no-repeat;
     -ms-background-size:cover;
     background-size:cover;
     background-color:#ffffff;
@@ -91,4 +131,20 @@
     font-size:12px;
     -ms-opacity:0.75;
     opacity:0.75;
+}
+
+@media screen and (max-width: 800px){
+
+    #icon-wrap{
+        max-width:400px;
+    }
+}
+
+
+@media screen and (max-width: 330px){
+
+    .leisure-icon {
+        height:85px;
+        width:85px;
+    }
 }

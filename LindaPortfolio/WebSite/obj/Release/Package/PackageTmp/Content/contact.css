@@ -1,12 +1,13 @@
 ﻿#contact{
     height:auto;
     overflow-x:hidden;
+    padding-bottom: 30px;
 }
 
 .contact-wrap{
     max-width:900px;
     height:auto;
-    margin:30px auto;
+    margin: 30px auto;
 }
 
 #contact-text{
@@ -83,7 +84,7 @@
 }
 
 #tumb-contact-CV {
-    background: url('../fonts/img/cv.svg');
+    background: url('../fonts/img/cv.png');
     background-repeat:no-repeat;
     background-color: white;
     -ms-background-size:contain;
@@ -92,7 +93,7 @@
 }
 
 #tumb-contact-email {
-    background: url('../fonts/img/mail.svg');
+    background: url('../fonts/img/mail.png');
     background-repeat:no-repeat;
     background-color: white;
     -ms-background-size:contain;
@@ -117,7 +118,7 @@
 }
 
 #tumb-contact-linkedin {
-    background: url('../fonts/img/linked.svg');
+    background: url('../fonts/img/linked.png');
     background-repeat:no-repeat;
     background-color: white;
     -ms-background-size:contain;
